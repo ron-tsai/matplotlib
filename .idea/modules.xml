@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/M.iml" filepath="$PROJECT_DIR$/.idea/M.iml" />
+      <module fileurl="file://E:\postgraduate\no_space_environment\category\pycharm\pycharm_file_location\matplotlib\.idea\M.iml" filepath="E:\postgraduate\no_space_environment\category\pycharm\pycharm_file_location\matplotlib\.idea\M.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/matplotlib.iml" filepath="$PROJECT_DIR$/.idea/matplotlib.iml" />
     </modules>
   </component>
 </project>
