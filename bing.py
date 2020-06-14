@@ -12,9 +12,13 @@
 #     return pie
 
 import matplotlib.pyplot as plt
-
 plt.rcParams['font.sans-serif']=['SimHei']
 plt.rcParams['axes.unicode_minus']=False
+
+# plt.rcParams['font.sans-serif']=['SimSum']
+# plt.rcParams['font.serif']=['SimSum']
+# import seaborn as sns
+# sns.set_style('darkgrid',{'font.sans-serif':['SimSum','Arial']})
 
 
 # labels='农、林、牧、渔业','采矿业','制造业','电力、燃气及水的生产和供应业','建筑业','交通运输、仓储和邮政业','信息传输、计算机服务和软件业截至','批发和零售业','住宿和餐饮业','金融业','房地产业','租赁和商务服务业','科学研究、技术服务和地质勘查业','水利、环境和公共设施管理业','居民服务和其他服务业','教育','卫生、社会保障和社会福利业','文化、体育和娱乐业'
@@ -57,7 +61,7 @@ explode=(0.2,0,0.2,0,0.2,0,0.2,0,0.2,0,0.2,0,0.2,0,0.2,0,0.2,0)
 plt.pie(sizes,explode=explode,labels=labels,shadow=False,autopct='%1.2f%%',
         pctdistance=0.6,labeldistance=0.8,rotatelabels=90,startangle=30,radius=1.1,counterclock=False,
         textprops={'fontsize':7,'color':'black'})
-plt.title('对外投资各行业占比')
+plt.title('图1.1  对外投资各行业占比',color='r',y=-0.14)
 # plt.axis('equal')
 plt.legend(loc='upper right',fontsize=8,bbox_to_anchor=(1.2,1.2),borderaxespad=0.1)
 # plt.text()
