@@ -18,7 +18,7 @@ y=table1.col_values(1)
 print(x)
 print(y)
 
-plt.title('上海证券交易所B股市值变化趋势',color='r',fontsize='large')
+plt.title('上海证券交易所B股市值变化趋势',color='r',fontsize='large',y=-0.14)
 plt.xlabel('年份',color='b')
 plt.ylabel('市值（仟亿元人民币）',color='b')
 
@@ -31,7 +31,11 @@ plt.xticks(rotation=40)
 for a,b in zip(x,y):
     plt.text(a,b,b,ha='right',va='center',fontsize=7,rotation=90,color='g')
 
+
 #设置网格线
 plt.grid(True,color='y')
 plt.legend()
 plt.show()
+
+
+
