@@ -20,7 +20,7 @@ plt.ylabel('中国国内生产总值（亿元人民币）')
 plt.twinx()
 plt.bar(x3,y2,width=barwidth,color='b')
 plt.ylabel('中国实际利用世界外商直接投资(百万人民币)')
-plt.title('图2.1.1  中国GDP与利用外商投资趋势',y=-0.14)
+plt.title('图2.1.1  中国GDP与利用外商投资趋势',y=-0.1)
 
 
 

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="c779b5039e3844b1a9317792c509aa80" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_c779b5039e3844b1a9317792c509aa80 = echarts.init(
+            document.getElementById('c779b5039e3844b1a9317792c509aa80'), 'white', {renderer: 'canvas'});
+        var option_c779b5039e3844b1a9317792c509aa80 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u519c\u3001\u6797\u3001\u7267\u3001\u6e14\u4e1a",
+                    "value": 1656194.0
+                },
+                {
+                    "name": "\u91c7\u77ff\u4e1a",
+                    "value": 15767026.0
+                },
+                {
+                    "name": "\u5236\u9020\u4e1a",
+                    "value": 14030075.0
+                },
+                {
+                    "name": "\u7535\u529b\u3001\u71c3\u6c14\u53ca\u6c34\u7684\u751f\u4ea7\u548c\u4f9b\u5e94\u4e1a",
+                    "value": 2499090.0
+                },
+                {
+                    "name": "\u5efa\u7b51\u4e1a",
+                    "value": 3770399.0
+                },
+                {
+                    "name": "\u4ea4\u901a\u8fd0\u8f93\u3001\u4ed3\u50a8\u548c\u90ae\u653f\u4e1a",
+                    "value": 5476795.0
+                },
+                {
+                    "name": "\u4fe1\u606f\u4f20\u8f93\u3001\u8ba1\u7b97\u673a\u670d\u52a1\u548c\u8f6f\u4ef6\u4e1a\u622a\u81f3",
+                    "value": 21889737.0
+                },
+                {
+                    "name": "\u6279\u53d1\u548c\u96f6\u552e\u4e1a",
+                    "value": 22642713.0
+                },
+                {
+                    "name": "\u4f4f\u5bbf\u548c\u9910\u996e\u4e1a",
+                    "value": 351305.0
+                },
+                {
+                    "name": "\u91d1\u878d\u4e1a",
+                    "value": 20279304.0
+                },
+                {
+                    "name": "\u623f\u5730\u4ea7\u4e1a",
+                    "value": 5375505.0
+                },
+                {
+                    "name": "\u79df\u8d41\u548c\u5546\u52a1\u670d\u52a1\u4e1a",
+                    "value": 61577349.0
+                },
+                {
+                    "name": "\u79d1\u5b66\u7814\u7a76\u3001\u6280\u672f\u670d\u52a1\u548c\u5730\u8d28\u52d8\u67e5\u4e1a",
+                    "value": 2168399.0
+                },
+                {
+                    "name": "\u6c34\u5229\u3001\u73af\u5883\u548c\u516c\u5171\u8bbe\u65bd\u7ba1\u7406\u4e1a",
+                    "value": 238996.0
+                },
+                {
+                    "name": "\u5c45\u6c11\u670d\u52a1\u548c\u5176\u4ed6\u670d\u52a1\u4e1a",
+                    "value": 1901733.0
+                },
+                {
+                    "name": "\u6559\u80b2",
+                    "value": 328616.0
+                },
+                {
+                    "name": "\u536b\u751f\u3001\u793e\u4f1a\u4fdd\u969c\u548c\u793e\u4f1a\u798f\u5229\u4e1a",
+                    "value": 138880.0
+                },
+                {
+                    "name": "\u6587\u5316\u3001\u4f53\u80b2\u548c\u5a31\u4e50\u4e1a",
+                    "value": 811536.0
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}:{c}:{d}%"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u519c\u3001\u6797\u3001\u7267\u3001\u6e14\u4e1a",
+                "\u91c7\u77ff\u4e1a",
+                "\u5236\u9020\u4e1a",
+                "\u7535\u529b\u3001\u71c3\u6c14\u53ca\u6c34\u7684\u751f\u4ea7\u548c\u4f9b\u5e94\u4e1a",
+                "\u5efa\u7b51\u4e1a",
+                "\u4ea4\u901a\u8fd0\u8f93\u3001\u4ed3\u50a8\u548c\u90ae\u653f\u4e1a",
+                "\u4fe1\u606f\u4f20\u8f93\u3001\u8ba1\u7b97\u673a\u670d\u52a1\u548c\u8f6f\u4ef6\u4e1a\u622a\u81f3",
+                "\u6279\u53d1\u548c\u96f6\u552e\u4e1a",
+                "\u4f4f\u5bbf\u548c\u9910\u996e\u4e1a",
+                "\u91d1\u878d\u4e1a",
+                "\u623f\u5730\u4ea7\u4e1a",
+                "\u79df\u8d41\u548c\u5546\u52a1\u670d\u52a1\u4e1a",
+                "\u79d1\u5b66\u7814\u7a76\u3001\u6280\u672f\u670d\u52a1\u548c\u5730\u8d28\u52d8\u67e5\u4e1a",
+                "\u6c34\u5229\u3001\u73af\u5883\u548c\u516c\u5171\u8bbe\u65bd\u7ba1\u7406\u4e1a",
+                "\u5c45\u6c11\u670d\u52a1\u548c\u5176\u4ed6\u670d\u52a1\u4e1a",
+                "\u6559\u80b2",
+                "\u536b\u751f\u3001\u793e\u4f1a\u4fdd\u969c\u548c\u793e\u4f1a\u798f\u5229\u4e1a",
+                "\u6587\u5316\u3001\u4f53\u80b2\u548c\u5a31\u4e50\u4e1a"
+            ],
+            "selected": {},
+            "show": true,
+            "right": "right",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u5404\u884c\u4e1a\u5bf9\u5916\u76f4\u63a5\u6295\u8d44\u4efd\u989d",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_c779b5039e3844b1a9317792c509aa80.setOption(option_c779b5039e3844b1a9317792c509aa80);
+    </script>
+</body>
+</html>
